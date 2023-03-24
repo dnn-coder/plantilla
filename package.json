@@ -1,0 +1,22 @@
+{
+    "name": "elrecuerdoback",
+    "version": "1.0.0",
+    "description": "software para colegio",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "Danny vivas",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-validator": "^6.15.0",
+        "pg": "^8.10.0",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.29.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.21"
+    }
+}
